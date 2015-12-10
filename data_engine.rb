@@ -107,8 +107,8 @@ end
 a = DataEngine.new('data')
 #puts a.get_all_scenarios[0]['name']
 #puts a.get_all_unique_scenarios.length
-scenario =  a.get_scenarios_by_name("Verify \"Forgot your password?\" works, tc_id: 'GTWO-1855'")
-
+scenario =  a.get_scenarios_by_name("Search for an user,")
+#puts scenario
 puts a.scenario_results(scenario)
 
 
