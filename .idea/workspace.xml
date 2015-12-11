@@ -26,18 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data_engine.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_engine.rb">
+      <file leaf-file-name="cucumber_json_report.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_workers/cucumber_json_report.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32133675">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_engine.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_workers/data_engine.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="cucumber_scenario.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cucumber_scenario.rb">
+        <entry file="file://$PROJECT_DIR$/data_workers/cucumber_scenario.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
@@ -47,7 +57,7 @@
         </entry>
       </file>
       <file leaf-file-name="cucumber_element.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cucumber_element.rb">
+        <entry file="file://$PROJECT_DIR$/data_workers/cucumber_element.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
@@ -57,7 +67,7 @@
         </entry>
       </file>
       <file leaf-file-name="cucumber_step.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cucumber_step.rb">
+        <entry file="file://$PROJECT_DIR$/data_workers/cucumber_step.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
@@ -67,7 +77,7 @@
         </entry>
       </file>
       <file leaf-file-name="cucumber_result.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cucumber_result.rb">
+        <entry file="file://$PROJECT_DIR$/data_workers/cucumber_result.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
@@ -76,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cucumber_before.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cucumber_before.rb">
+      <file leaf-file-name="cucumber_before.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_workers/cucumber_before.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.051413883">
               <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
@@ -87,7 +97,7 @@
         </entry>
       </file>
       <file leaf-file-name="cucumber_feature.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cucumber_feature.rb">
+        <entry file="file://$PROJECT_DIR$/data_workers/cucumber_feature.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
@@ -118,6 +128,7 @@
         <option value="$PROJECT_DIR$/cucumber_element.rb" />
         <option value="$PROJECT_DIR$/cucumber_result.rb" />
         <option value="$PROJECT_DIR$/cucumber_step.rb" />
+        <option value="$PROJECT_DIR$/cucumber_json_report.rb" />
         <option value="$PROJECT_DIR$/data_engine.rb" />
       </list>
     </option>
@@ -175,20 +186,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestsStatisticSpark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestsStatisticSpark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -205,12 +202,13 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data_workers" />
       <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.data_engine">
-    <configuration default="false" name="data_engine" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.cucumber_json_report">
+    <configuration default="false" name="cucumber_json_report" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="TestsStatisticSpark" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -226,7 +224,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/data_engine.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/data_workers/cucumber_json_report.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -246,7 +244,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/cucumber_element.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/data_workers/cucumber_element.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -378,12 +376,12 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.data_engine" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.cucumber_json_report" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.cucumber_element" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.data_engine" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.cucumber_json_report" />
         <item index="1" class="java.lang.String" itemvalue="Ruby.cucumber_element" />
       </list>
     </recent_temporary>
@@ -400,9 +398,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1080" height="1847" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25433525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25433525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -430,7 +428,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_engine.rb">
+    <entry file="file://$PROJECT_DIR$/data_workers/cucumber_json_report.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -454,19 +452,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.json">
+    <entry file="file://$PROJECT_DIR$/data/cucumber.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5262" column="38" selection-start-line="5262" selection-start-column="38" selection-end-line="5262" selection-end-column="38" />
-          <folding>
-            <element signature="e#626904#628920#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="85.34577">
           <caret line="5262" column="38" selection-start-line="5262" selection-start-column="38" selection-end-line="5262" selection-end-column="38" />
           <folding>
             <element signature="e#626904#628920#0" expanded="false" />
@@ -490,23 +478,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber_before.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber_element.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber_feature.rb">
+    <entry file="file://$PROJECT_DIR$/data_workers/cucumber_feature.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
@@ -514,7 +486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber_result.rb">
+    <entry file="file://$PROJECT_DIR$/data_workers/cucumber_result.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
@@ -522,7 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber_scenario.rb">
+    <entry file="file://$PROJECT_DIR$/data_workers/cucumber_scenario.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
@@ -530,7 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber_step.rb">
+    <entry file="file://$PROJECT_DIR$/data_workers/cucumber_step.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
@@ -538,10 +510,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_engine.rb">
+    <entry file="file://$PROJECT_DIR$/data/cucumber.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32133675">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.0188172">
+          <caret line="5262" column="38" selection-start-line="5262" selection-start-column="38" selection-end-line="5262" selection-end-column="38" />
+          <folding>
+            <element signature="e#626904#628920#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_workers/cucumber_element.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_workers/cucumber_json_report.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_workers/data_engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_workers/cucumber_before.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.051413883">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
 require 'json'
 require_relative 'cucumber_feature'
 
-class DataEngine
+class CucumberJsonReport
 
   attr_reader :json, :features
 
@@ -18,8 +18,9 @@ class DataEngine
     features
   end
 
+
 end
 
-a = DataEngine.new('cucumber.json')
+#a = DataEngine.new('data/cucumber.json')
 # binding.pry
 #a.features[0].elements.each { |i| puts i.type }
